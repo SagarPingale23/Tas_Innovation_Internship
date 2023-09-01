@@ -1,0 +1,107 @@
+<!--ARTIFICIAL INTELLIGENCE INTERNSHIP
+
+TASK-2
+
+Create ChatBot
+
+Here are the simplified steps to create Chatbot:
+
+1. Define the purpose and scope of the chatbot, including the target audience and the specific tasks it should be able to handle.
+
+2. Choose a suitable platform or framework for building the chatbot, such as Dialogflow or Microsoft Bot Framework.
+
+3. Design and develop a conversational flow by creating a set of predefined user interactions and corresponding bot responses.
+
+4. Train the chatbot using relevant data or create a knowledge base to provide accurate and helpful responses.
+
+5. Implement natural language processing (NLP) techniques to
+
+understand and interpret user inputs effectively.
+
+6. Test the chatbot extensively and gather user feedback to refine and improve its performance over time.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Ordering Chatbot</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 50px;
+            text-align: center;
+        }
+        .chatbot-box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #ff9900;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #777;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 15px;
+        }
+        .task-title {
+            font-weight: bold;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+  
+        <div class="chatbot-box">
+            <h1>Welcome to PizzaBot</h1>
+            <p>Your Friendly Pizza Ordering Assistant</p>
+            <div class="text-left">
+                <h2>Purpose and Scope</h2>
+                <p><strong>Purpose:</strong> The pizza ordering chatbot is designed to streamline the process of ordering pizzas for customers of a pizza delivery service.</p>
+                <p><strong>Scope:</strong> The chatbot's primary scope revolves around assisting customers in placing pizza orders. It should handle tasks related to menu exploration, order customization, order placement, and basic customer queries.</p>
+                <h2>Target Audience</h2>
+                <ul>
+                    <li>Pizza Lovers: Individuals who enjoy ordering pizzas for themselves, family, or friends.</li>
+                    <li>Tech-Savvy Users: Customers comfortable with using online interfaces and chatbots for ordering.</li>
+                </ul>
+                <h2>Specific Tasks</h2>
+                <ul>
+                    <li><span class="task-title">Menu Exploration:</span> Browse the pizza menu with options, prices, and descriptions. Get details about available toppings, crusts, and sizes.</li>
+                    <li><span class="task-title">Order Customization:</span> Personalize your pizza by selecting toppings, crust types, and sizes. Discover popular combinations or specialty pizzas.</li>
+                    <li><span class="task-title">Order Placement:</span> Provide delivery details: address, contact info, and preferred delivery time. Review order before confirming.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Now add here chat bot copy the API and paste here-->
+<script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"2f565251cf2e8687016c15f59237da4bd","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+</html>
